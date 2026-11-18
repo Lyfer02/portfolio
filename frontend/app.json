@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Alex Rivera Portfolio",
+    "slug": "alex-rivera-portfolio",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "portfolio",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "dev.alexrivera.portfolio"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#05070F",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "dev.alexrivera.portfolio",
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "single",
+      "name": "Alex Rivera · Full Stack Developer",
+      "shortName": "Alex Rivera",
+      "description": "Premium glassmorphism developer portfolio built with Expo, React Native, and Node.js.",
+      "themeColor": "#05070F",
+      "backgroundColor": "#05070F"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-web-browser",
+      "expo-status-bar",
+      "expo-splash-screen"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
